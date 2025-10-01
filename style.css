@@ -1,1 +1,24 @@
+body {
+    background:rgb(177, 235, 212);
+}
+/*Select by TAG type*/
+p {
+    color:red;
+}
+/*Select by ID name (unique)*/
+#arian {
+    background:pink;
+}
+/*Select by CLASS name (shared styles)*/
+.uniform {
+    color:blue;
+}
 
+h1 {
+    color:purple;
+    font-weight:200;
+    font-style:italic;
+    font-size:40px;
+    font-family:Impact;
+    text-align:center;
+}
