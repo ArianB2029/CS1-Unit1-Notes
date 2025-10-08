@@ -8,6 +8,10 @@ p {
 /*Select by ID name (unique)*/
 #arian {
     background:pink;
+    border:8px inset black;
+    border-radius:20px;
+    padding:15px;
+    margin:20px;
 }
 /*Select by CLASS name (shared styles)*/
 .uniform {
@@ -21,4 +25,22 @@ h1 {
     font-size:40px;
     font-family:Impact;
     text-align:center;
+}
+
+/* "comment-out" code (deactivate)
+* {
+    border:2px 
+    solid red;
+}
+*/
+
+.centered {
+    text-align:center;
+    margin:auto;
+}
+
+img {
+    border-width:15px;
+    border-style:double;
+    border-color:grey;
 }
